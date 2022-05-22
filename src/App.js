@@ -22,8 +22,7 @@ function App() {
   const [startToken, setStartToken] = useState('');
 
   useEffect(() => {
-    const apiKey = "FBJHuEKR11meXXyZIYay1MMJEA8UI5Bf";
-    const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}/getNFTsForCollection`;
+    const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${process.env.REACT_APP_alchemy_api_key}/getNFTsForCollection`;
     const withMetadata = true;
     const perPage = 9;
     if (!utils.isAddress(address) && address != '') {
