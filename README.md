@@ -1,7 +1,7 @@
 # React NFT gallery Dapp
 This is a NFT gallery dapp thats utilizes the alchemy api to retive NFT-data and displays it to the user.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/wilhelmuggla/react-nft-gallery/blob/master/screenshot.png)
 
 
 ## Available Scripts
